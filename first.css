@@ -1,0 +1,321 @@
+body{
+    background-color:lightsteelblue;
+    font-size: 15px;
+}
+
+/* Menu */
+.menu-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    background-color: mediumpurple;
+    color:white;
+    font-size: 1.5em;
+    margin-top: -30px;
+    width: 100%;
+}
+.header h1{
+    padding: 10px;
+}
+.menu-container{
+    display: flex;
+    background-color:slategrey;
+    margin-top:-30px;
+    width: 100%;
+}
+.menu-child{
+    color:wheat;
+    font-size: 2em;
+    padding: 5px 20px;
+}
+
+
+
+
+/* Content-1 */
+.content-1{
+    background-image: url("image6.jpg");
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-1 div{
+    color:darkturquoise;
+    margin-top: 30px;
+    font-size: 4em;
+    width: 70%;
+}
+
+
+
+
+/*double-paragraph */
+.double-paragraph{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-top:20px ;
+}
+.content-2{
+    border-style: solid;
+    width: 30%;
+    padding: 15px;
+}
+.content-3{
+    background-color: blueviolet;
+    color: white;
+    width: 30%;
+    padding: 15px;
+}
+
+
+
+    /* quries-section */
+.quries-section{
+    text-align: center;
+    margin-top: 60px;
+}
+.quries-section button{
+    background-color:cadetblue;
+    font-size: 170%;
+    font-weight: 200;
+    padding:3px 8px;
+    border-radius: 5%;
+}    
+.link{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+
+/* last-section */
+.last-section{
+    height: 80px;
+    width: 100%;
+    background-color: dimgray;
+    color: white;
+    font-size: 2em;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+/* Media Quries-1*/
+@media screen and (min-width: 1200px) and (max-width:1370px){
+
+.content-1 div{
+        font-size: 2.5em;
+}
+.content-1{
+    height: 400px;
+    width: 100%;
+}
+
+}
+    
+
+
+/* Media Quries-1*/
+@media screen and (min-width: 901px) and (max-width:1200px){
+
+.content-1 div{
+    font-size: 2.5em;
+}
+.content-1{
+    height: 370px;
+    width: 100%;
+}
+}
+
+/* Media Quries-1*/
+@media screen and (min-width: 550px) and (max-width:900px){
+    
+    body{
+        font-size: 12px;
+    }
+
+/* Menu */
+
+.header{
+    font-size: 1em;
+    width: 100%;
+    margin-top: -23px;
+}
+.header h1{
+    padding: 7px;
+}
+.menu-container{
+    
+    margin-top:-20px;
+    width: 100%;
+}
+.menu-child{
+    font-size: 1.5em;
+}
+/* Content-1 */
+.content-1{
+    height: 550px;
+    width: 100%;
+}
+.content-1 div{
+    font-size: 3em;
+    width: 70%;
+}
+
+/*double-paragraph */
+.double-paragraph{
+    width: 90%;
+}
+.content-2{
+    width: 35%;
+}
+.content-3{
+    width: 35%;
+}
+
+
+
+    /* quries-section */
+
+.quries-section button{
+    font-size: 140%;
+}    
+
+
+/* last-section */
+.last-section{
+    font-size: 1.5em;
+}
+
+
+}
+
+/* Media Quries-2 */
+@media screen and (min-width: 400px) and (max-width:550px){
+    
+    body{
+        font-size: 10px;
+    }
+
+/* Menu */
+
+.header{
+    font-size: 0.8em;
+    width: 100%;
+    margin-top: -10px;
+}
+.header h1{
+    padding: 5px;
+}
+.menu-container{
+    
+    margin-top:-15px;
+    width: 100%;
+}
+.menu-child{
+    font-size: 1.3em;
+}
+/* Content-1 */
+.content-1{
+    height: 350px;
+    width: 100%;
+}
+.content-1 div{
+    font-size: 2.5em;
+    width: 70%;
+}
+
+/*double-paragraph */
+.double-paragraph{
+    width: 95%;
+}
+.content-2{
+    width: 40%;
+}
+.content-3{
+    width: 40%;
+}
+
+
+
+    /* quries-section */
+
+.quries-section button{
+    font-size: 120%;
+}    
+
+
+/* last-section */
+.last-section{
+    font-size: 1.3em;
+}
+
+
+}
+
+/* Media Quries-3 */
+@media screen and (max-width:400px){
+    
+    body{
+        font-size: 10px;
+    }
+
+/* Menu */
+
+.header{
+    font-size: 0.8em;
+    width: 100%;
+    margin-top: -5px;
+}
+.header h1{
+    padding: 3px;
+}
+.menu-container{
+    
+    margin-top:-10px;
+    width: 100%;
+}
+.menu-child{
+    font-size: 1em;
+}
+/* Content-1 */
+.content-1{
+    height: 420px;
+    width: 100%;
+}
+.content-1 div{
+    font-size: 2em;
+    width: 70%;
+}
+
+/*double-paragraph */
+.double-paragraph{
+    width: 100%;
+}
+.content-2{
+    width: 45%;
+}
+.content-3{
+    width: 45%;
+}
+
+
+
+    /* quries-section */
+
+.quries-section button{
+    font-size: 100%;
+}    
+
+
+/* last-section */
+.last-section{
+    font-size: 1em;
+}
+
+
+}
